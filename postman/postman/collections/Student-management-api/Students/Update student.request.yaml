@@ -1,0 +1,22 @@
+$kind: http-request
+name: Update student
+url: http://localhost:8080/api/students/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"Arun Kumar Updated\",\r
+
+    \    \"email\": \"arun.updated@example.com\",\r
+
+    \    \"phone\": \"9876543210\",\r
+
+    \    \"department\": \"Artificial Intelligence\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_12r6}}"
+order: 1788226161201

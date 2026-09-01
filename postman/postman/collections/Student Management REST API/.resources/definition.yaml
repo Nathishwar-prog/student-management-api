@@ -1,0 +1,8 @@
+$kind: collection
+description: Complete API collection for the Student Management Spring Boot application.
+variables:
+  baseUrl: http://localhost:8080
+  token: ""
+  studentId: "1"
+  courseId: "1"
+  enrollmentId: "1"

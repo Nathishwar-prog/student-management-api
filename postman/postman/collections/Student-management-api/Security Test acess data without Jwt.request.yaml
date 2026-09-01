@@ -1,0 +1,5 @@
+$kind: http-request
+name: Security Test acess data without Jwt
+url: http://localhost:8080/api/students
+method: GET
+order: 4503599618951285

@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/api/courses/{{courseId}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "code": "CS101",
+        "name": "Advanced Java Programming",
+        "credits": 5
+    }
+order: 5000

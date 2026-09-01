@@ -1,0 +1,7 @@
+$kind: http-request
+name: Get student's academic records
+url: http://localhost:8080/api/enrollments/student/1
+method: GET
+auth:
+  type: bearer
+order: 4503599606173456

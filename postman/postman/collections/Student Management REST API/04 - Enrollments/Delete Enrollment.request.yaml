@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/enrollments/{{enrollmentId}}"
+method: DELETE
+order: 7000

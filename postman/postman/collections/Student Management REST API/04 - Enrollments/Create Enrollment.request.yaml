@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/api/enrollments"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "studentId": {{studentId}},
+        "courseId": {{courseId}},
+        "grade": "A"
+    }
+order: 3000

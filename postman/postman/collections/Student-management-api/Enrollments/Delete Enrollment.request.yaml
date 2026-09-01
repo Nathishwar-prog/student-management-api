@@ -1,0 +1,7 @@
+$kind: http-request
+name: Delete Enrollment
+url: http://localhost:8080/api/enrollments/1
+method: DELETE
+auth:
+  type: bearer
+order: 3561003473696092

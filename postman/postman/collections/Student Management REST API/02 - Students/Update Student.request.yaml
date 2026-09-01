@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{baseUrl}}/api/students/{{studentId}}"
+method: PUT
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "name": "Arun Kumar Updated",
+        "email": "arun.updated@example.com",
+        "phone": "9876543210",
+        "department": "Artificial Intelligence"
+    }
+order: 4000

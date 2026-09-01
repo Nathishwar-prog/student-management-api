@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get courses
+url: http://localhost:8080/api/courses
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_12r6}}"
+order: 1788226107897

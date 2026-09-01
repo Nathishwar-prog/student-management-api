@@ -1,0 +1,20 @@
+$kind: http-request
+name: Create Enrollments
+url: http://localhost:8080/api/enrollments
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"studentId\": 1,\r
+
+    \    \"courseId\": 1,\r
+
+    \    \"grade\": \"A\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_12r6}}"
+order: 2213125270613961

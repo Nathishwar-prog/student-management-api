@@ -1,0 +1,9 @@
+$kind: http-request
+name: Get all Students
+url: http://localhost:8080/api/students
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: "{{supabase_service_role_api_key_12r6}}"
+order: 3932934447687620

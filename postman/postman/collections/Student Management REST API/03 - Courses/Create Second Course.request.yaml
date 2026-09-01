@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{baseUrl}}/api/courses"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "code": "DB101",
+        "name": "Database Management Systems",
+        "credits": 3
+    }
+order: 4000

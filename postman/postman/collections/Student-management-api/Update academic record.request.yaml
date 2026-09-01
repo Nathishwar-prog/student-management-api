@@ -1,0 +1,18 @@
+$kind: http-request
+name: Update academic record
+url: http://localhost:8080/api/enrollments/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"studentId\": 1,\r
+
+    \    \"courseId\": 1,\r
+
+    \    \"grade\": \"A+\"\r
+
+    }"
+auth:
+  type: bearer
+order: 4503599606766042

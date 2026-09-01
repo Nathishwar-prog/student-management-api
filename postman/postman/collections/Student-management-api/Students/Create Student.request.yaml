@@ -1,0 +1,22 @@
+$kind: http-request
+name: Create Student
+url: http://localhost:8080/api/students
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"\",\r
+
+    \    \"email\": \"hello\",\r
+
+    \    \"phone\": \"abc\",\r
+
+    \    \"department\": \"\"\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_12r6}}"
+order: 3676245520775766

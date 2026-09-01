@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{baseUrl}}/api/enrollments/{{enrollmentId}}"
+method: GET
+order: 2000

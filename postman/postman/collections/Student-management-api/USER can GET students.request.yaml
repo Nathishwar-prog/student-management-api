@@ -1,0 +1,7 @@
+$kind: http-request
+name: USER can GET students
+url: http://localhost:8080/api/students
+method: GET
+auth:
+  type: bearer
+order: 4503599626764551

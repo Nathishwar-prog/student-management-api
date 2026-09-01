@@ -1,0 +1,15 @@
+$kind: http-request
+url: "{{baseUrl}}/api/students"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: text
+  content: |-
+    {
+        "name": "Arun Kumar",
+        "email": "arun@example.com",
+        "phone": "9876543210",
+        "department": "Computer Science"
+    }
+order: 3000

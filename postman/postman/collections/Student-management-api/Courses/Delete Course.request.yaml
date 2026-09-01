@@ -1,0 +1,9 @@
+$kind: http-request
+name: Delete Course
+url: http://localhost:8080/api/courses/2
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_12r6}}"
+order: 3302980761545563

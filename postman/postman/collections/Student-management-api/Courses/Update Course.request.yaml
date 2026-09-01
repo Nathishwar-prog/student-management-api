@@ -1,0 +1,20 @@
+$kind: http-request
+name: Update Course
+url: http://localhost:8080/api/courses/1
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"code\": \"CS101\",\r
+
+    \    \"name\": \"Advanced Java Programming\",\r
+
+    \    \"credits\": 5\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_12r6}}"
+order: 3982089430021627

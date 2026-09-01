@@ -1,0 +1,20 @@
+$kind: http-request
+name: Create Course
+url: http://localhost:8080/api/courses
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"code\": \"DB101\",\r
+
+    \    \"name\": \"Database Management Systems\",\r
+
+    \    \"credits\": 3\r
+
+    }"
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_12r6}}"
+order: 4012789463462359

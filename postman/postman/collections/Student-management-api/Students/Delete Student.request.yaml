@@ -1,0 +1,7 @@
+$kind: http-request
+name: Delete Student
+url: http://localhost:8080/api/students/2
+method: DELETE
+auth:
+  type: bearer
+order: 4483035966311687

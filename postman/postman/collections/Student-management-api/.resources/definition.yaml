@@ -1,0 +1,15 @@
+$kind: collection
+name: Student-management-api
+variables:
+  - key: supabase_service_role_api_key_12r6
+    secret: true
+    disabled: false
+  - key: json_web_token_12r6
+    secret: true
+    disabled: false
+  - key: supabase_service_role_api_key_1655
+    secret: true
+    disabled: false
+  - key: json_web_token_1655
+    secret: true
+    disabled: false
